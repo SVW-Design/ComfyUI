@@ -116,3 +116,24 @@ StabilityMatrix
 
 <br>
 
+### 파일 위치
+- ComfyUI 설치 경로
+
+> 기본 위치에 설치했다면
+```
+  C:\<사용자>\AppData\Roaming\StabilityMatrix\Packages\ComfyUI
+```
+
+- 모델 파일 경로
+
+|타입|폴더 위치|
+|-|-|
+|ComfyUI 단독 설치형의 모델 위치|ComfyUI\models\|
+|StabilityMatrix 의 ComfyUI 설치 위치|\Packages\ComfyUI\|
+|StabilityMatrix 의 모델 위치|\Models|
+
+- 커스텀 노드 중 일부분은 공용 폴더 위치를 무시하고, ComfyUI\models 폴더에 없으면 오류 발생
+
+  - ComfyUI\models 폴더에 옮겨야험
+
+<br>
