@@ -47,7 +47,7 @@ Stable Diffusion
 
 <br>
 
-ComfyUI(컴피유야이)
+ComfyUI(컴피유아이)
 ---
 - 프로그래밍 능력이 좋아야하는 Stable Diffusion 을 쉽게 사용할 수 있게 도와주는 도구
 
@@ -69,4 +69,50 @@ ComfyUI(컴피유야이)
 |ComfyUI|WebUI|
 |-|-|
 |- 익숙해지기는 어렵지만, 한번 익숙해지면 자유로운 작업 가능<br>- 요리로 치면 밀가루부터 반죽하는 느낌<br>- 발전 속도가 빨라 새로운 AI 가 등장하면 2~3일 내에<br>&nbsp;&nbsp;&nbsp;ComfyUI 에 커스텀 노드로 결합되어 사용 가능|- 사용하기 쉬움<br>- 깊이 들어가면 한계 존재<br>- 요리로 치면 컵라면 or 밀키트 느낌|
+
+<br>
+
+---
+
+<br>
+
+StabilityMatrix
+---
+### StabilityMatrix 설치
+- [사이트 이동](https://github.com/LykosAI/StabilityMatrix) 후 하단에서 OS 별 다운로드 진행
+
+- 적절한 곳에 압출 푼 후  StabilityMatrix.exe 파일 실행
+
+- Stable Diffusion WebUI 설치
+
+  - 설치하면서 학습 모델(Checkpoint Model) 등도 함께 설치할 수 있어 편리(Civita API 필요)
+ 
+  - StabilityMatrix 로 설치된 WebUI, ComfyUI 등의 모델들은 설치된 모델을 공유하므로 관리하기 쉬움
+
+|-|
+|-|
+|![이미지](./img/02.png)|
+
+<br>
+
+### ComfyUI 설치
+- StabilityMatrix 실행 수 왼쪽 **패키지 아이콘** 클릭
+
+- Add Package 버튼 누른 후 ComfyUI 설치
+
+  - 옵션은 딱시 설정할 것 없으므로 바로 Install 버튼 눌러 설치
+ 
+- Launch 버튼 클릭으로 간단히 실행 가능
+
+  - 아무것도 뜨지 않는다면 **Open Web UI** 버튼 누르면 웹페이지가 열림
+
+|-|
+|-|
+|![이미지](./img/03.png)|
+|![이미지](./img/04.png)|
+|![이미지](./img/05.png)|
+|![이미지](./img/06.png)|
+|![이미지](./img/07.png)|
+
+<br>
 
